@@ -1,0 +1,74 @@
+body{
+    background: #831111;
+}
+
+.container{
+    width: 50%;
+    padding: 10px;
+    border-radius: 17px;
+    margin: 27px auto;
+    background: #06088d;
+    box-shadow: black 1px 2px 5px;
+}
+
+.container img{
+    margin: auto;
+    width: 17%;
+    display: block;
+}
+
+.icon{
+    display: contents;
+    top :5px;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+    
+}
+.remove{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    background: #831111;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 27px;
+    color: aliceblue;
+}
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__input-container input {
+    display: block;
+    width: 100%;
+}
+
+.reminder-title{
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline;
+    margin: 30px;
+
+}
+input, button{
+    margin: 5px;
+}
+.list-group-item{
+     
+    background: #f1efef;
+    border-width: 2px;
+    border-color: black;
+}
+.list-group{
+    margin: 20px 0;
+    background: #f1efef;
+    
+}
+.form-controle{
+    display: block;
+    width: 100%;
+}
